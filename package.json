@@ -1,0 +1,31 @@
+{
+  "name": "webdriverio-tutorial",
+  "version": "1.0.0",
+  "description": "This is a webdriverIO tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/wdio ./wdio.conf.js",
+    "actions": "node_modules/.bin/wdio ./wdio.conf.js --suite actions"
+  },
+  "author": "Muhammad Muqeet",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/local-runner": "^7.20.5",
+    "@wdio/mocha-framework": "^7.20.3",
+    "@wdio/spec-reporter": "^7.20.3",
+    "chai": "^4.3.6",
+    "chai-webdriverio": "^1.0.0",
+    "chromedriver": "^103.0.0",
+    "local-runner": "^0.1.1-alpha",
+    "selenium-standalone": "^8.2.0",
+    "wdio-chromedriver-service": "^7.3.2",
+    "webdriverio": "^7.20.5"
+  },
+  "dependencies": {
+    "@wdio/cli": "^7.20.5",
+    "@wdio/sync": "^7.20.5",
+    "dotenv": "^16.0.1",
+    "node-env-run": "^4.0.2",
+    "setup-env": "^1.2.6"
+  }
+}
